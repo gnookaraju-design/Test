@@ -273,10 +273,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CICDEnabledCallout</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__CLIInterface</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -629,14 +625,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CreateReleaseArtifactCtrl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__CreateReleaseArtifactImpl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__CreateStandardRecordCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -921,10 +909,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DataTemplateRedirectController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__DataTemplateSetupExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1006,14 +990,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__DeployDataAction</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__DeployFromBranchImpl</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__DeployFromBranchJobScheduler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2261,18 +2237,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__QueueOrdering</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__QueuePreviousJobBackfill</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__QueueReorderValidator</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__QueueStateImpl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2330,10 +2294,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__Release</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__ReleaseBranchJobRecordsSetupRegistry</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2781,14 +2741,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__StandardJobRecordDefinition</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__StandardJobRecordsSetup</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>copado__StandardRecordStatusCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3110,10 +3062,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__ViewDeploymentExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__VisualforceNameResolver</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6346,16 +6294,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Release__c.copado__Artifact_User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Base_Branch_Origin__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>copado__Release__c.copado__Base_Branch__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6367,11 +6305,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Release__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Environment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

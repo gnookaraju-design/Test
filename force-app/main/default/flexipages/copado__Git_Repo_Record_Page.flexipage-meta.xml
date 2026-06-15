@@ -7,9 +7,6 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
-                            <value>Delete</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>copado__Git_Repository__c.copado__Reset_Authentication</value>
                             <visibilityRule>
                                 <criteria>
@@ -17,6 +14,9 @@
                                     <operator>NE</operator>
                                 </criteria>
                             </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Delete</value>
                         </valueListItems>
                         <valueListItems>
                             <value>copado__Git_Repository__c.copado__Switch_to_Classic_View</value>
@@ -52,26 +52,6 @@
         </itemInstances>
         <name>header</name>
         <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>copado:gitRepoAuthentication</componentName>
-                <identifier>c_gitRepoAuthentication</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-5c925e68-f590-448a-8853-e1cab2697bfb</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>copado:gitRepositoryBranches</componentName>
-                <identifier>c_gitRepositoryBranches</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-c57607d4-3825-4e0e-9316-7a6c1024e9ad</name>
-        <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -302,6 +282,26 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>copado:gitRepoAuthentication</componentName>
+                <identifier>c_gitRepoAuthentication</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-5c925e68-f590-448a-8853-e1cab2697bfb</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>copado:gitRepositoryBranches</componentName>
+                <identifier>c_gitRepositoryBranches</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-c57607d4-3825-4e0e-9316-7a6c1024e9ad</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentName>copado:authenticationStatus</componentName>
                 <identifier>c_authenticationStatus</identifier>
             </componentInstance>
@@ -316,12 +316,6 @@
             <componentInstance>
                 <componentName>copado:copadoHelper</componentName>
                 <identifier>c_copadoHelper</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>copado:recordDetailCICDRedirect</componentName>
-                <identifier>c_recordDetailCICDRedirect</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>

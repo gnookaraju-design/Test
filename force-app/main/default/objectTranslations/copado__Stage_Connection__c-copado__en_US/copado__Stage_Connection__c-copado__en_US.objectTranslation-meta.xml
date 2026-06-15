@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Stage Connections</value>
     </caseValues>
+    <layouts>
+        <layout>Stage Connection Layout</layout>
+        <sections>
+            <label><!-- Stage Dependencies --></label>
+            <section>Stage Dependencies</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

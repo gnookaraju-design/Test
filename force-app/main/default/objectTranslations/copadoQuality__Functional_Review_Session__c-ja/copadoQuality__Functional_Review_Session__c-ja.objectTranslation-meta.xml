@@ -13,4 +13,8 @@
         <name>copadoQuality__RelatedList</name>
     </fieldSets>
     <nameFieldLabel><!-- Functional Review Session Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Start Review --></label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
 </CustomObjectTranslation>

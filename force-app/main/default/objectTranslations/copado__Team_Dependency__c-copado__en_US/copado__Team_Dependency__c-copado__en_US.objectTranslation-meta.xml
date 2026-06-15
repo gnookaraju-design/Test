@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>User Story Dependencies</value>
     </caseValues>
+    <layouts>
+        <layout>User Story Dependency Layout</layout>
+        <sections>
+            <label><!-- Deliverable --></label>
+            <section>Deliverable</section>
+        </sections>
+        <sections>
+            <label><!-- Team Dependency (Optional) --></label>
+            <section>Team Dependency (Optional)</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -5,6 +5,11 @@
         <value>静的コード分析設定</value>
     </caseValues>
     <nameFieldLabel>静的コード分析設定名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>デフォルトルールセットの作成</label>
+        <name>copado__Generate_Default_Rule_Set</name>
+    </quickActions>
     <recordTypes>
         <description>Codescan統合のためのレコードタイプです。 Codescanのライセンスが必要です。</description>
         <label><!-- CodeScan --></label>

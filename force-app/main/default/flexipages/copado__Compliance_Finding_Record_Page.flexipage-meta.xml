@@ -35,64 +35,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Name</fieldItem>
-                <identifier>RecordNameField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.copado__Compliance_Rule__c</fieldItem>
-                <identifier>RecordCompliance_Rule__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.copado__Severity__c</fieldItem>
-                <identifier>RecordSeverity__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-cad0b921-7efc-4bfb-b56e-9ed9ead3e88a</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.copado__Compliance_Scan_Result__c</fieldItem>
-                <identifier>RecordCompliance_Scan_Result__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.copado__Rule_Error_Message__c</fieldItem>
-                <identifier>RecordRule_Error_Message__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-a11f0dec-7b24-4413-addb-cf7491dac1c6</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
@@ -113,34 +55,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-cbf290c0-29ed-4df9-9c52-65490fedc3d5</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.CreatedById</fieldItem>
-                <identifier>RecordCreatedByIdField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-17ffe2cb-d254-4b2d-b317-5681930f375a</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.LastModifiedById</fieldItem>
-                <identifier>RecordLastModifiedByIdField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-93c3626b-7bee-4120-ba05-28833e6efda6</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -203,16 +117,6 @@
             </componentInstance>
         </itemInstances>
         <name>detailTabContent</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>copado:complianceFindingGrid</componentName>
-                <identifier>complianceFindingGrid</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-b373ce46-4fe5-49e8-a603-82e113505f45</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -320,6 +224,102 @@
         </itemInstances>
         <name>sidebar</name>
         <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>copado:complianceFindingGrid</componentName>
+                <identifier>complianceFindingGrid</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-b373ce46-4fe5-49e8-a603-82e113505f45</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Name</fieldItem>
+                <identifier>RecordNameField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.copado__Compliance_Rule__c</fieldItem>
+                <identifier>RecordCompliance_Rule__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.copado__Severity__c</fieldItem>
+                <identifier>RecordSeverity__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-cad0b921-7efc-4bfb-b56e-9ed9ead3e88a</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.copado__Compliance_Scan_Result__c</fieldItem>
+                <identifier>RecordCompliance_Scan_Result__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.copado__Rule_Error_Message__c</fieldItem>
+                <identifier>RecordRule_Error_Message__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-a11f0dec-7b24-4413-addb-cf7491dac1c6</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.CreatedById</fieldItem>
+                <identifier>RecordCreatedByIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-17ffe2cb-d254-4b2d-b317-5681930f375a</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.LastModifiedById</fieldItem>
+                <identifier>RecordLastModifiedByIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-93c3626b-7bee-4120-ba05-28833e6efda6</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <masterLabel>Compliance Finding Record Page</masterLabel>
     <sobjectType>copado__Compliance_Finding__c</sobjectType>
