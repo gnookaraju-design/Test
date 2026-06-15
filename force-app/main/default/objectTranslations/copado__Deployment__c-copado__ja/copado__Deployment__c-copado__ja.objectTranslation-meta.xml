@@ -17,6 +17,21 @@
         <name>copado__Pipeline_Deployment_Modal</name>
     </fieldSets>
     <nameFieldLabel>デプロイメント名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>テンプレートを複製</label>
+        <name>copado__Clone_Template</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>テンプレートを実行</label>
+        <name>copado__Execute_Automation_Template</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>テンプレートをエクスポート</label>
+        <name>copado__Export_Template</name>
+    </quickActions>
     <recordTypes>
         <description>複数の種類のデプロイメントステップを作成 （技術的知識が必要です）</description>
         <label>アドバンスト（マルチステップ）</label>
@@ -49,4 +64,8 @@
         <label>テンプレートをインポート</label>
         <name>copado__Import_Template</name>
     </webLinks>
+    <workflowTasks>
+        <name>copado__Deployment_scheduled</name>
+        <subject>デプロイメントスケジュール</subject>
+    </workflowTasks>
 </CustomObjectTranslation>

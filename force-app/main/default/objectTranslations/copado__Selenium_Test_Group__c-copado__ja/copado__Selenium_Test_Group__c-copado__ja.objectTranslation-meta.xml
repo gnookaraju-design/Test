@@ -8,6 +8,13 @@
         <label>Selenium結果タブ</label>
         <name>copado__Selenium_Results_Tab</name>
     </fieldSets>
+    <layouts>
+        <layout>Selenium Test Group Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Seleniumテストグループ名</nameFieldLabel>
     <validationRules>
         <errorMessage>タイプが「ユーザーストーリーテスト」または「回帰テスト」の場合は、環境フィールドが必要です。</errorMessage>

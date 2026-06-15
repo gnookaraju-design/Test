@@ -4,6 +4,13 @@
         <plural>false</plural>
         <value>システムプロパティ</value>
     </caseValues>
+    <layouts>
+        <layout>System Property Layout</layout>
+        <sections>
+            <label>システムプロパティの割り当て</label>
+            <section>System property assignment</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>プロパティ名</nameFieldLabel>
     <sharingReasons>
         <label><!-- Is Public --></label>

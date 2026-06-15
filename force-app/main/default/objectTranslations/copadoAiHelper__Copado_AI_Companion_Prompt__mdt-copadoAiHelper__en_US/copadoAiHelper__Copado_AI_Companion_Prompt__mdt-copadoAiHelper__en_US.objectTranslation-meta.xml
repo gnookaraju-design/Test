@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Copado AI Companion Prompts</value>
     </caseValues>
+    <layouts>
+        <layout>Copado AI Companion Prompt Layout</layout>
+        <sections>
+            <label><!-- Prompt context information --></label>
+            <section>Prompt context information</section>
+        </sections>
+        <sections>
+            <label><!-- Prompt/Question information --></label>
+            <section>Prompt/Question information</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

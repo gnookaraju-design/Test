@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>ユーザーストーリー依存関係</value>
     </caseValues>
+    <layouts>
+        <layout>User Story Dependency Layout</layout>
+        <sections>
+            <label><!-- Deliverable --></label>
+            <section>Deliverable</section>
+        </sections>
+        <sections>
+            <label><!-- Team Dependency (Optional) --></label>
+            <section>Team Dependency (Optional)</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ユーザーストーリー依存関係名</nameFieldLabel>
 </CustomObjectTranslation>

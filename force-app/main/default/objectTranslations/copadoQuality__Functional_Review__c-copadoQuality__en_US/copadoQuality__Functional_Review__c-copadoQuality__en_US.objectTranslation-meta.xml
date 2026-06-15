@@ -12,6 +12,10 @@
         <label><!-- RelatedList --></label>
         <name>copadoQuality__RelatedList</name>
     </fieldSets>
+    <quickActions>
+        <label><!-- Start Review --></label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Review session can be created only for one epic or feature. Both values can not be provided at the same time. --></errorMessage>

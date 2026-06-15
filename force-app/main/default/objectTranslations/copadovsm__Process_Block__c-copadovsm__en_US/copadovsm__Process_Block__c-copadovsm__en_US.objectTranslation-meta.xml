@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Process Blocks</value>
     </caseValues>
+    <layouts>
+        <layout>Process Block Layout</layout>
+        <sections>
+            <label><!-- Setup --></label>
+            <section>Setup</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

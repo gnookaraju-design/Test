@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Test Script Steps</value>
     </caseValues>
+    <layouts>
+        <layout>Script Step Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

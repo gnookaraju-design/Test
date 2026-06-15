@@ -4,6 +4,13 @@
         <plural>false</plural>
         <value>スプリント</value>
     </caseValues>
+    <layouts>
+        <layout>Sprint Layout</layout>
+        <sections>
+            <label><!-- Sprint Summary --></label>
+            <section>Sprint Summary</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>スプリント名</nameFieldLabel>
     <validationRules>
         <errorMessage>完了日（End Date)は開始日より後である必要があります。</errorMessage>

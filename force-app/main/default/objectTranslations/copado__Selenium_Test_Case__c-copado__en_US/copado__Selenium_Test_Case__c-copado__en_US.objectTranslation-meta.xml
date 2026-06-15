@@ -8,6 +8,13 @@
         <plural>true</plural>
         <value>Selenium Test Cases</value>
     </caseValues>
+    <layouts>
+        <layout>Selenium Test Case Layout</layout>
+        <sections>
+            <label><!-- Selenese Commands --></label>
+            <section>Selenese Commands</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
     <webLinks>
         <label><!-- New_Version --></label>

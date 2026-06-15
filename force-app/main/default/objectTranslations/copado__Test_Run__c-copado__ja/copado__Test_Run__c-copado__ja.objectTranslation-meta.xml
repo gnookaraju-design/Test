@@ -12,6 +12,13 @@
         <label>アウトプット項目</label>
         <name>copado__OutputFields</name>
     </fieldSets>
+    <layouts>
+        <layout>Test Execution Layout</layout>
+        <sections>
+            <label><!-- Test Run Results --></label>
+            <section>Test Run Results</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>テスト実行名</nameFieldLabel>
     <webLinks>
         <label>コパードDX.</label>

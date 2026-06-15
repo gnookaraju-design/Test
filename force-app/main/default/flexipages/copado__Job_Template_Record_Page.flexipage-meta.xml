@@ -48,26 +48,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>force:detailPanel</componentName>
-                <identifier>force_detailPanel</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-f903dfe5-1cc5-44ee-8195-0c5fe6d7c1bd</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>copado:customJobStepContainer</componentName>
-                <identifier>c_customJobStepContainer1</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-1eee4437-156c-4108-aea1-7ccfbdb22560</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
                 <componentInstanceProperties>
                     <name>parentFieldApiName</name>
                     <value>copado__JobTemplate__c.Id</value>
@@ -167,6 +147,26 @@
         <mode>Replace</mode>
         <name>main</name>
         <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-f903dfe5-1cc5-44ee-8195-0c5fe6d7c1bd</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>copado:customJobStepContainer</componentName>
+                <identifier>c_customJobStepContainer1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-1eee4437-156c-4108-aea1-7ccfbdb22560</name>
+        <type>Facet</type>
     </flexiPageRegions>
     <masterLabel>Job Template Record Page</masterLabel>
     <parentFlexiPage>force__Default_rec_simple</parentFlexiPage>
