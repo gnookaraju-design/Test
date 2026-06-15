@@ -8,6 +8,13 @@
         <plural>true</plural>
         <value>User Persona Assignments</value>
     </caseValues>
+    <layouts>
+        <layout>User Persona Assignment Layout</layout>
+        <sections>
+            <label><!-- Status Details --></label>
+            <section>Status Details</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Cannot  specify End and Start time for Permanent permissions. --></errorMessage>

@@ -8,6 +8,17 @@
         <label>コンプライアンス結果タブ</label>
         <name>copado__Compliance_Result_Tab</name>
     </fieldSets>
+    <layouts>
+        <layout>Compliance Scan Result Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Related To --></label>
+            <section>Related To</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>スキャン結果参照</nameFieldLabel>
     <recordTypes>
         <description>このレコードタイプは、コパードによって生成されたスキャン結果に使用されます。</description>

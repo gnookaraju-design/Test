@@ -13,4 +13,9 @@
         <name>copadoQuality__RelatedList</name>
     </fieldSets>
     <nameFieldLabel>機能レビューセッション</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>レビューを開始</label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
 </CustomObjectTranslation>

@@ -12,7 +12,59 @@
         <label>SFDXパッケージバージョンライトニングページ</label>
         <name>cmcSf__SFDX_PackageVersion_CustomFields</name>
     </fieldSets>
+    <layouts>
+        <layout>Artifact Version Layout</layout>
+        <sections>
+            <label><!-- Package Version Details --></label>
+            <section>Package Version Details</section>
+        </sections>
+        <sections>
+            <label><!-- Release Details --></label>
+            <section>Release Details</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>アーティファクトのバージョン名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Gitからのパッケージバージョンの設定</label>
+        <name>cmcSf__Configure_Package_Version_From_Git</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>パッケージバージョンの生成</label>
+        <name>cmcSf__GeneratePackageVersionSFDX</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>パッケージバージョンの公開</label>
+        <name>cmcSf__PublishPackageVersionSFDX</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>インストールキーの更新</label>
+        <name>cmcSf__UpdateInstallationKey</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>パッケージのバージョン情報の更新</label>
+        <name>cmcSf__Update_Package_Version_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Configuration --></label>
+        <name>copado__EditConfiguration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Package Version --></label>
+        <name>copado__GeneratePackageVersion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lock Bundle --></label>
+        <name>copado__Lock_Bundle</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Publish Package Version --></label>
+        <name>copado__PublishPackageVersion</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- The API version specified is not valid. It must be in the format, Number.0 --></errorMessage>
         <name>cmcSf__Api_Version_Format</name>

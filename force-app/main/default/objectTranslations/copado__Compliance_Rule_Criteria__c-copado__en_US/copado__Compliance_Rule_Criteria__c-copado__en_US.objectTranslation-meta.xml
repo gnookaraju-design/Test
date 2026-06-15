@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value>Compliance Rule Criterias</value>
     </caseValues>
+    <layouts>
+        <layout>Compliance Rule Criteria Layout</layout>
+        <sections>
+            <label><!-- Criteria --></label>
+            <section>Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Criteria Details --></label>
+            <section>Criteria Details</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

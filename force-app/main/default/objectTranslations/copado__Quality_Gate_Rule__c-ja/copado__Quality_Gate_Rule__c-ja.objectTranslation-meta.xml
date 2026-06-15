@@ -5,4 +5,24 @@
         <value>品質ゲートルール</value>
     </caseValues>
     <nameFieldLabel>品質ゲートルール名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Activate --></label>
+        <name>copado__Activate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Activate --></label>
+        <name>copado__Activate1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deactivate --></label>
+        <name>copado__Deactivate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deactivate --></label>
+        <name>copado__Deactivate1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit --></label>
+        <name>copado__Edit</name>
+    </quickActions>
 </CustomObjectTranslation>

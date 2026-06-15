@@ -16,5 +16,9 @@
         <label><!-- RelatedList --></label>
         <name>copadoQuality__RelatedList</name>
     </fieldSets>
+    <quickActions>
+        <label><!-- Start Review --></label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

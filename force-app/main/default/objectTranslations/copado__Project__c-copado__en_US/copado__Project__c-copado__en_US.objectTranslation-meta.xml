@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Projects</value>
     </caseValues>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Project Summary --></label>
+            <section>Project Summary</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

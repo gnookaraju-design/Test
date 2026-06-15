@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Applications</value>
     </caseValues>
+    <layouts>
+        <layout>Application Layout</layout>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+    </layouts>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>
