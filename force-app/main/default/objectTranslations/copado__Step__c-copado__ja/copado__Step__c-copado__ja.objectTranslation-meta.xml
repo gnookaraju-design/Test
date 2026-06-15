@@ -12,5 +12,16 @@
         <label>デプロイメントカラムを参照</label>
         <name>copado__ViewDeploymentColumns</name>
     </fieldSets>
+    <layouts>
+        <layout>Step Layout</layout>
+        <sections>
+            <label><!-- Json Step Data --></label>
+            <section>Json Step Data</section>
+        </sections>
+        <sections>
+            <label><!-- Progress --></label>
+            <section>Progress</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ステップ名</nameFieldLabel>
 </CustomObjectTranslation>

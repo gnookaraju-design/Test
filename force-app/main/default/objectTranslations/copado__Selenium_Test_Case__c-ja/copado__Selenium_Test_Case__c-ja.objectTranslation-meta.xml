@@ -4,6 +4,13 @@
         <plural>false</plural>
         <value>Seleniumテストケース</value>
     </caseValues>
+    <layouts>
+        <layout>Selenium Test Case Layout</layout>
+        <sections>
+            <label>Selenium IDEコマンド</label>
+            <section>Selenese Commands</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Selenium テストケース名</nameFieldLabel>
     <webLinks>
         <label><!-- New_Version --></label>

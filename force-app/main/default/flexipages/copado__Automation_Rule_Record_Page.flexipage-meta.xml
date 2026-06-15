@@ -7,6 +7,15 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
+                            <value>copado__Automation_Rule__c.copado__Edit1</value>
+                            <visibilityRule>
+                                <criteria>
+                                    <leftValue>{!Record.copado__Quality_Gate_Rule_Condition__r.Name}</leftValue>
+                                    <operator>EQUAL</operator>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
                             <value>copado__Automation_Rule__c.copado__Activate1</value>
                             <visibilityRule>
                                 <booleanFilter>1 AND 2</booleanFilter>
@@ -22,6 +31,15 @@
                             </visibilityRule>
                         </valueListItems>
                         <valueListItems>
+                            <value>Delete</value>
+                            <visibilityRule>
+                                <criteria>
+                                    <leftValue>{!Record.copado__Quality_Gate_Rule_Condition__r.Name}</leftValue>
+                                    <operator>EQUAL</operator>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
                             <value>copado__Automation_Rule__c.copado__Deactivate1</value>
                             <visibilityRule>
                                 <booleanFilter>1 AND 2</booleanFilter>
@@ -30,24 +48,6 @@
                                     <operator>EQUAL</operator>
                                     <rightValue>true</rightValue>
                                 </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.copado__Quality_Gate_Rule_Condition__r.Name}</leftValue>
-                                    <operator>EQUAL</operator>
-                                </criteria>
-                            </visibilityRule>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>copado__Automation_Rule__c.copado__Edit1</value>
-                            <visibilityRule>
-                                <criteria>
-                                    <leftValue>{!Record.copado__Quality_Gate_Rule_Condition__r.Name}</leftValue>
-                                    <operator>EQUAL</operator>
-                                </criteria>
-                            </visibilityRule>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Delete</value>
-                            <visibilityRule>
                                 <criteria>
                                     <leftValue>{!Record.copado__Quality_Gate_Rule_Condition__r.Name}</leftValue>
                                     <operator>EQUAL</operator>

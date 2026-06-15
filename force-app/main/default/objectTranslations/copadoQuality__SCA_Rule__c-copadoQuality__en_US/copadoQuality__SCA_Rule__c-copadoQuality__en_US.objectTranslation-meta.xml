@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>SCA Rules</value>
     </caseValues>
+    <layouts>
+        <layout>SCA Rule Layout</layout>
+        <sections>
+            <label><!-- Rule Configuration --></label>
+            <section>Rule Configuration</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

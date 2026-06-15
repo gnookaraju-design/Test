@@ -8,6 +8,22 @@
         <plural>true</plural>
         <value>Data Templates</value>
     </caseValues>
+    <quickActions>
+        <label><!-- Activate --></label>
+        <name>copado__Activate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clone --></label>
+        <name>copado__Clone</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deactivate --></label>
+        <name>copado__Deactivate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Export Template --></label>
+        <name>copado__Export_Template</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
     <webLinks>
         <label><!-- Import_Templates --></label>

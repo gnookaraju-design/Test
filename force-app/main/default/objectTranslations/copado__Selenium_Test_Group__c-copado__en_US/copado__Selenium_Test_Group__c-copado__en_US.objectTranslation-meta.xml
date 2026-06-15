@@ -12,6 +12,13 @@
         <label><!-- Selenium_Results_Tab --></label>
         <name>copado__Selenium_Results_Tab</name>
     </fieldSets>
+    <layouts>
+        <layout>Selenium Test Group Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- The Environment field is required if the Type is &quot;User Story Test&quot; or &quot;Regression Test&quot;. --></errorMessage>

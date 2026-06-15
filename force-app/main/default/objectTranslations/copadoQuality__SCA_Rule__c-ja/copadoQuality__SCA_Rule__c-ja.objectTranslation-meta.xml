@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value><!-- SCAルール --></value>
     </caseValues>
+    <layouts>
+        <layout>SCA Rule Layout</layout>
+        <sections>
+            <label>ルールの構成</label>
+            <section>Rule Configuration</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Rule ID --></nameFieldLabel>
 </CustomObjectTranslation>

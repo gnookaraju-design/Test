@@ -8,6 +8,20 @@
         <label>CBMフィールド</label>
         <name>copado__CBM_Fields</name>
     </fieldSets>
+    <layouts>
+        <layout>Git Org Commit Layout</layout>
+        <sections>
+            <label><!-- MetaData Selections --></label>
+            <section>MetaData Selections</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Snapshot Commit Layout</layout>
+        <sections>
+            <label><!-- MetaData Selections --></label>
+            <section>MetaData Selections</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>コミット名</nameFieldLabel>
     <validationRules>
         <errorMessage>コミットIDがあるときは、コミットステータスを「保留」または「変更なし」にすることはできません。</errorMessage>

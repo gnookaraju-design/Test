@@ -8,6 +8,13 @@
         <label>基準ページフィールド</label>
         <name>copado__Criteria_Page_Fields</name>
     </fieldSets>
+    <layouts>
+        <layout>Compliance Rule Layout</layout>
+        <sections>
+            <label><!-- Rule Detail --></label>
+            <section>Rule Detail</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>コンプライアンス・ルール名</nameFieldLabel>
     <recordTypes>
         <description>コパードによって実行されるスキャンルールを定義するには、このレコードタイプを使用して下さい。</description>

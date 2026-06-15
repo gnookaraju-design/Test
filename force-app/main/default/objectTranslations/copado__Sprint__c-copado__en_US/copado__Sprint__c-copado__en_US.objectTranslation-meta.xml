@@ -8,6 +8,13 @@
         <plural>true</plural>
         <value>Sprints</value>
     </caseValues>
+    <layouts>
+        <layout>Sprint Layout</layout>
+        <sections>
+            <label><!-- Sprint Summary --></label>
+            <section>Sprint Summary</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- You must introduce an End Date greater than the Start Date. --></errorMessage>

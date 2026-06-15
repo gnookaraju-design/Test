@@ -29,6 +29,31 @@
         <name>copado__Pipeline_Manager</name>
     </fieldSets>
     <nameFieldLabel>プロモーション名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>変更をデプロイ</label>
+        <name>copado__Deploy_Changes</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>変更点をマージ</label>
+        <name>copado__Merge_Changes</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>変更をマージ＆デプロイ</label>
+        <name>copado__Merge_Deploy</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>プルリクエストを開く</label>
+        <name>copado__Open_Pull_Request</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>変更を検証</label>
+        <name>copado__ValidateChanges</name>
+    </quickActions>
     <validationRules>
         <errorMessage>スクラッチ組織へのバックプロモーションは許可されていません</errorMessage>
         <name>copado__Scratch_Orgs_Disabled_for_Back_Promoting</name>
